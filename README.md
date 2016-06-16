@@ -36,6 +36,7 @@ Suggested Emojis
 | Emoji | Raw Emoji Code | Description |
 |:---:|---|---|
 | :art: | `:art:` | when improving the **format**/structure of the code |
+| :file_folder: | `:file_folder:` | when Changing **Files/Directories** Structure | 
 | :racehorse: | `:racehorse:` | when improving **performance** |
 | :books: | `:books:` | when writing **docs** |
 | :bug: | `:bug:` | when reporting a **bug** |
