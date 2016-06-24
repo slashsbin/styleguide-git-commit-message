@@ -65,3 +65,5 @@ Suggested Emojis
 | :rocket: | `:rocket:` | Anything related to Deployments/**DevOps** |
 
 Ask to Be [Creative](http://www.emoji-cheat-sheet.com/)!
+
+There is Also a [nifty CLI tool](https://github.com/jakeasmith/commit) to aid in standardizing commit messages based on this document, thanks to [@jakeasmith](https://github.com/jakeasmith).
