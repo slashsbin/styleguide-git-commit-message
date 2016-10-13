@@ -31,6 +31,7 @@ Notes
 + There is a **Space** Character between Multiple Emojis!.
 + There is **NO** New-Line After the _Task ID Reference_ Line.
 + Every Raw Emoji Text(`:emoji:`) is Counted as One Char!.
++ See [ToDo Grammar StyleGuide](https://github.com/slashsBin/styleguide-todo-grammar) for more Information on `@XXX` Comment Tags.
 
 ---
 
@@ -42,12 +43,12 @@ Suggested Emojis
 | :art: | `:art:` | when improving the **format**/structure of the code |
 | :racehorse: | `:racehorse:` | when improving **performance** |
 | :books: | `:books:` | when writing **docs** |
-| :bug: | `:bug:` | when reporting a **bug** |
+| :bug: | `:bug:` | when reporting a **bug**, with [`@FIXME`](https://github.com/slashsBin/styleguide-todo-grammar#bug-report)Comment Tag |
 | :ambulance: | `:ambulance:` | when fixing a **bug** |
 | :penguin: | `:penguin:` | when fixing something on **Linux** |
 | :apple: | `:apple:` | when fixing something on **Mac OS** |
 | :checkered_flag: | `:checkered_flag:` | when fixing something on **Windows** |
-| :fire: | `:fire:` | when **removing code** or files |
+| :fire: | `:fire:` | when **removing code** or files, _maybe_ with `@CHANGED` Comment Tag |
 | :white_check_mark: | `:white_check_mark:` | when adding **tests** |
 | :green_heart: | `:green_heart:` | when fixing the **CI** build |
 | :lock: | `:lock:` | when dealing with **security** |
@@ -55,17 +56,17 @@ Suggested Emojis
 | :arrow_down: | `:arrow_down:` | when downgrading **dependencies** |
 | :shirt: | `:shirt:` | when removing **linter**/strict/deprecation warnings |
 | :lipstick: | `:lipstick:` | when improving **UI**/Cosmetic |
-| :construction: | `:construction:` | **WIP**(Work In Progress) Commits |
+| :construction: | `:construction:` | **WIP**(Work In Progress) Commits, _maybe_ with `@REVIEW` Comment Tag |
 | :gem: | `:gem:` | New **Release** |
 | :bookmark: | `:bookmark:` | Version **Tags** |
 | :tada: | `:tada:` | **Initial** Commit |
 | :speaker: | `:speaker:` | when Adding **Logging** |
 | :mute: | `:mute:` | when Reducing **Logging** |
 | :sparkles: | `:sparkles:` | when introducing **New** Features |
-| :zap: | `:zap:` | when introducing **Backward-InCompatible** Features |
-| :bulb: | `:bulb:` | New **Idea** |
+| :zap: | `:zap:` | when introducing **Backward-InCompatible** Features, _maybe_ with `@CHANGED` Comment Tag |
+| :bulb: | `:bulb:` | New **Idea**, with `@IDEA` Comment Tag |
 | :snowflake: | `:snowflake:` | changing **Configuration**, Usually together with :penguin: or :ribbon: or :rocket: |
-| :ribbon: | `:ribbon:` | Customer requested application **Customization** |
+| :ribbon: | `:ribbon:` | Customer requested application **Customization**, with `@HACK` Comment Tag |
 | :rocket: | `:rocket:` | Anything related to Deployments/**DevOps** |
 
 Ask to Be [Creative](http://www.emoji-cheat-sheet.com/)!
