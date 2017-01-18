@@ -49,7 +49,7 @@ Suggested Emojis
 | :apple: | `:apple:` | when fixing something on **Mac OS** |
 | :checkered_flag: | `:checkered_flag:` | when fixing something on **Windows** |
 | :fire: | `:fire:` | when **removing code** or files, _maybe_ with `@CHANGED` Comment Tag |
-| :white_check_mark: | `:white_check_mark:` | when adding **tests** |
+| :umbrella: | `:umbrella:` | when adding **tests** |
 | :green_heart: | `:green_heart:` | when fixing the **CI** build |
 | :lock: | `:lock:` | when dealing with **security** |
 | :arrow_up: | `:arrow_up:` | when upgrading **dependencies** |
