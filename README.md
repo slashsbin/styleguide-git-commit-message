@@ -54,6 +54,8 @@ Suggested Emojis
 | :lock: | `:lock:` | when dealing with **security** |
 | :arrow_up: | `:arrow_up:` | when upgrading **dependencies** |
 | :arrow_down: | `:arrow_down:` | when downgrading **dependencies** |
+| :fast_forward: | `:fast_forward:` | when **forward-porting features** from an older version/branch |
+| :rewind: | `:rewind:` | when **backporting features** from a newer version/branch |
 | :shirt: | `:shirt:` | when removing **linter**/strict/deprecation warnings |
 | :lipstick: | `:lipstick:` | when improving **UI**/Cosmetic |
 | :wheelchair: | `:wheelchair:` | when improving **accessibility** |
