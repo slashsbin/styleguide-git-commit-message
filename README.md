@@ -74,7 +74,7 @@ Suggested Emojis
 | :elephant: | `:elephant:` | **PostgreSQL** Database specific(Migrations, Scripts, Extensions, ...)  |
 | :dolphin: | `:dolphin:` | **MySQL** Database specific(Migrations, Scripts, Extensions, ...) |
 
-Ask to Be [Creative](http://www.emoji-cheat-sheet.com/)!
+Ask to Be [Creative](https://emoji.codes/)!
 
 Tools
 -----
