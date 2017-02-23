@@ -2,6 +2,7 @@ Git Commit Message
 ==================
 
 All Git Commit Messages **MUST** meet with this Text Format:
+
 ```
 :emoji1: :emoji2: Subject
 (Only One NewLine)
