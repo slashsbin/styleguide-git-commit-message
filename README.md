@@ -41,6 +41,7 @@ Suggested Emojis
 | Emoji | Raw Emoji Code | Description |
 |:---:|:---:|---|
 | :art: | `:art:` | when improving the **format**/structure of the code |
+| :pencil: | `:pencil:` | when **performing minor changes/fixing** the code or language |
 | :racehorse: | `:racehorse:` | when improving **performance** |
 | :books: | `:books:` | when writing **docs** |
 | :bug: | `:bug:` | when reporting a **bug**, with [`@FIXME`](https://github.com/slashsBin/styleguide-todo-grammar#bug-report)Comment Tag |
