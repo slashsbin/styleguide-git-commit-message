@@ -73,8 +73,9 @@ Suggested Emojis
 | :snowflake: | `:snowflake:` | changing **Configuration**, Usually together with :penguin: or :ribbon: or :rocket: |
 | :ribbon: | `:ribbon:` | Customer requested application **Customization**, with `@HACK` Comment Tag |
 | :rocket: | `:rocket:` | Anything related to Deployments/**DevOps** |
-| :elephant: | `:elephant:` | **PostgreSQL** Database specific(Migrations, Scripts, Extensions, ...)  |
-| :dolphin: | `:dolphin:` | **MySQL** Database specific(Migrations, Scripts, Extensions, ...) |
+| :elephant: | `:elephant:` | **PostgreSQL** Database specific (Migrations, Scripts, Extensions, ...)  |
+| :dolphin: | `:dolphin:` | **MySQL** Database specific (Migrations, Scripts, Extensions, ...) |
+| :bank: | `:bank:` | **Generic Database** specific (Migrations, Scripts, Extensions, ...) |
 
 Ask to Be [Creative](https://emoji.codes/)!
 
