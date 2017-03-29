@@ -50,6 +50,7 @@ Suggested Emojis
 | :apple: | `:apple:` | when fixing something on **Mac OS** |
 | :checkered_flag: | `:checkered_flag:` | when fixing something on **Windows** |
 | :fire: | `:fire:` | when **removing code** or files, _maybe_ with `@CHANGED` Comment Tag |
+| :tractor: | `:tractor:` | when **change file structure**. Usually together with :art: |
 | :umbrella: | `:umbrella:` | when adding **tests** |
 | :green_heart: | `:green_heart:` | when fixing the **CI** build |
 | :lock: | `:lock:` | when dealing with **security** |
