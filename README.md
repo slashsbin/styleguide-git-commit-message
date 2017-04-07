@@ -76,6 +76,7 @@ Suggested Emojis
 | :rocket: | `:rocket:` | Anything related to Deployments/**DevOps** |
 | :elephant: | `:elephant:` | **PostgreSQL** Database specific (Migrations, Scripts, Extensions, ...)  |
 | :dolphin: | `:dolphin:` | **MySQL** Database specific (Migrations, Scripts, Extensions, ...) |
+| :leaves: | `:leaves:` | **MongoDB** Database specific (Migrations, Scripts, Extensions, ...) |
 | :bank: | `:bank:` | **Generic Database** specific (Migrations, Scripts, Extensions, ...) |
 
 Ask to Be [Creative](https://emoji.codes/)!
