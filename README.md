@@ -78,6 +78,7 @@ Suggested Emojis
 | :dolphin: | `:dolphin:` | **MySQL** Database specific (Migrations, Scripts, Extensions, ...) |
 | :leaves: | `:leaves:` | **MongoDB** Database specific (Migrations, Scripts, Extensions, ...) |
 | :bank: | `:bank:` | **Generic Database** specific (Migrations, Scripts, Extensions, ...) |
+| :whale: | `:whale:` | **Docker** Configuration |
 
 Ask to Be [Creative](https://emoji.codes/)!
 
