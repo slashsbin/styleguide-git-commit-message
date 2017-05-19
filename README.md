@@ -41,6 +41,7 @@ Suggested Emojis
 | Emoji | Raw Emoji Code | Description |
 |:---:|:---:|---|
 | :art: | `:art:` | when improving the **format**/structure of the code |
+| :newspaper: | `:newspaper:` | when creating a **new file** |
 | :pencil: | `:pencil:` | when **performing minor changes/fixing** the code or language |
 | :racehorse: | `:racehorse:` | when improving **performance** |
 | :books: | `:books:` | when writing **docs** |
