@@ -44,6 +44,7 @@ Suggested Emojis
 | :pencil: | `:pencil:` | when **performing minor changes/fixing** the code or language |
 | :racehorse: | `:racehorse:` | when improving **performance** |
 | :books: | `:books:` | when writing **docs** |
+| :page_face_up: | `:page_face_up:` | when **add new file** to the project |
 | :bug: | `:bug:` | when reporting a **bug**, with [`@FIXME`](https://github.com/slashsBin/styleguide-todo-grammar#bug-report)Comment Tag |
 | :ambulance: | `:ambulance:` | when fixing a **bug** |
 | :penguin: | `:penguin:` | when fixing something on **Linux** |
@@ -79,6 +80,7 @@ Suggested Emojis
 | :leaves: | `:leaves:` | **MongoDB** Database specific (Migrations, Scripts, Extensions, ...) |
 | :bank: | `:bank:` | **Generic Database** specific (Migrations, Scripts, Extensions, ...) |
 | :whale: | `:whale:` | **Docker** Configuration |
+| :handshake: | `:handshake:` | when **merge files** |
 
 Ask to Be [Creative](https://emoji.codes/)!
 
