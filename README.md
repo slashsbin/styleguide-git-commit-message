@@ -1,5 +1,31 @@
-Git Commit Message
-==================
+Git Commit Message StyleGuide
+=============================
+
+[![emoji](https://img.shields.io/badge/emoji-%F0%9F%A6%84%20%F0%9F%92%9F-lightgrey.svg)](https://en.wikipedia.org/wiki/Emoji#Unicode_blocks)
+[![GitHub contributors](https://img.shields.io/github/contributors/slashsBin/styleguide-git-commit-message.svg)](https://github.com/slashsBin/styleguide-git-commit-message/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/slashsBin/styleguide-git-commit-message.svg)](https://github.com/slashsBin/styleguide-git-commit-message/stargazers)
+[![license](https://img.shields.io/github/license/slashsBin/styleguide-git-commit-message.svg)](https://github.com/slashsBin/styleguide-git-commit-message/blob/master/LICENSE)
+
+
+##### TOC
+- [About](#about)
+- [Commit Message Format](#commit-message-format)
+- [Notes](#notes)
+- [Suggested Emojis](#suggested-emojis)
+- [Tools](#tools)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+## About
+This is an attempt to standardize the format of commit messages, for the sake of **uniformity** in git log, **best practices** for writing commit messages & **fun**!
+
+Using emojis at the beginning of commit messages, other than being fun, provides a simple way to indicate the intention of that commit, an ease for the eyes when browsing/reviewing git log. It's also a simple measure of the fact that how much that commit is focused on a single purpose, which is a good practice.
+
+If these rules and/or using emojis is an overkill for your productivity or simply losing its purposes, please tailor them to your needs or don't use them.
+
+
+## Commit Message Format
 
 All Git Commit Messages **MUST** meet with this Text Format:
 ```
@@ -10,8 +36,8 @@ Message Body
 Ref <###>
 ```
 
-Rules
------
+### Rules
+
 1. Capitalize the _Subject_.
 2. Do not end the _Subject_ line with a period.
 3. Message _Subject_ **SHOULD** Begin with _at-least_ One Emoji(see below for [list of Suggested Emojis](#suggested-emojis)).
@@ -24,8 +50,8 @@ Rules
 10. Use the _Message body_ to explain **what** and **why** vs. how.
 11. All WIP(Work In Progress) Commits **MUST** have the WIP Emoji(see below).
 
-Notes
------
+## Notes
+
 + All **WIP** Commits **Should** be Avoided!.
 + Tasks with Commits in `Fixes T###` Format will be Automatically [_Closed as Resolved_](https://help.github.com/articles/closing-issues-via-commit-messages/)!.
 + There is a **Space** Character between Multiple Emojis!.
@@ -33,10 +59,8 @@ Notes
 + Every Raw Emoji Text(`:emoji:`) is Counted as One Char!.
 + See [ToDo Grammar StyleGuide](https://github.com/slashsBin/styleguide-todo-grammar) for more Information on `@XXX` Comment Tags.
 
----
 
-Suggested Emojis
-----------------
+## Suggested Emojis
 
 | Emoji | Raw Emoji Code | Description |
 |:---:|:---:|---|
@@ -85,8 +109,20 @@ Suggested Emojis
 | :whale: | `:whale:` | **Docker** Configuration |
 | :handshake: | `:handshake:` | when **Merge files** |
 
-Ask to Be [Creative](https://emoji.codes/)!
 
-Tools
------
-There is Also a [nifty CLI tool](https://github.com/jakeasmith/commit) to aid in standardizing commit messages based on this document, thanks to [@jakeasmith](https://github.com/jakeasmith).
+## Tools
+
+- [Commit](https://github.com/jakeasmith/commit)(CLI): This is a nifty CLI tool to aid in standardizing commit messages based on this document, thanks to @jakeasmith.
+- [gitMoji](https://github.com/louisgrasset/git-moji)(Chrome Extension): Enhance your commits with emojis!, thanks to @louisgrasset.
+
+
+## Contributing
+
+[Ask](https://github.com/slashsBin/styleguide-git-commit-message/issues/new) to Be [Creative](https://emoji.codes/)!
+
+To add a new Emoji to the list: [Create an Issue](https://github.com/slashsBin/styleguide-git-commit-message/issues/new) & Send a [PR]().
+
+
+## License
+
+The Code is licensed under the [MIT License](http://slashsbin.mit-license.org/).
