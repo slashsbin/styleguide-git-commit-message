@@ -66,6 +66,8 @@ Suggested Emojis
 | :globe_with_meridians: | `:globe_with_meridians:` | when dealing with **globalization**/internationalization/i18n/g11n |
 | :construction: | `:construction:` | **WIP**(Work In Progress) Commits, _maybe_ with `@REVIEW` Comment Tag |
 | :gem: | `:gem:` | New **Release** |
+| :egg: | `:egg:` | New **Release** with Python egg|
+| :ferris_wheel: | `:ferris_wheel:` | New **Release** with Python wheel package |
 | :bookmark: | `:bookmark:` | Version **Tags** |
 | :tada: | `:tada:` | **Initial** Commit |
 | :speaker: | `:speaker:` | when Adding **Logging** |
