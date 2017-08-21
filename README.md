@@ -5,6 +5,7 @@ Git Commit Message StyleGuide
 [![GitHub contributors](https://img.shields.io/github/contributors/slashsBin/styleguide-git-commit-message.svg)](https://github.com/slashsBin/styleguide-git-commit-message/graphs/contributors)
 [![GitHub stars](https://img.shields.io/github/stars/slashsBin/styleguide-git-commit-message.svg)](https://github.com/slashsBin/styleguide-git-commit-message/stargazers)
 [![license](https://img.shields.io/github/license/slashsBin/styleguide-git-commit-message.svg)](https://github.com/slashsBin/styleguide-git-commit-message/blob/master/LICENSE)
+[![ghit.me](https://ghit.me/badge.svg?repo=slashsBin/styleguide-git-commit-message)](https://ghit.me/repo/slashsBin/styleguide-git-commit-message)
 
 
 ##### TOC
