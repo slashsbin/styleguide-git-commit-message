@@ -42,7 +42,8 @@ Ref <###>
 1. Capitalize the _Subject_.
 2. Do not end the _Subject_ line with a period.
 3. Message _Subject_ **SHOULD** Begin with _at-least_ One Emoji(see below for [list of Suggested Emojis](#suggested-emojis)).
-4. Message Body **SHOULD** End with _at-least_ One [GitHub Issue](https://github.com/features#issues)/[Phabricator Task](http://phacility.com/phabricator/maniphest/) ID Reference, Ex. `Issue #27`, `Ref T27` or `Ref T27, T56` or `Fixes T8`.
+4. Message Body **SHOULD** End with _at-least_ One Issue Tracking ID Reference([GitHub Issues](https://github.com/features#issues)/[GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/)/[Phabricator Tasks](http://phacility.com/phabricator/maniphest/)), Ex. `Issue #27`, `Ref T27` or `Ref T27, T56` or `Fixes T8`.  
+It's also [recommanded](/slashsBin/styleguide-git-commit-message/issues/19) to use _Full URL to Issues_, instead of just Issue ID Number; Doing so will ease browsing issues from terminal.
 5. Total Characters of the _Subject Line_ **MUST** be _Less_ than or _Equal_ to **50** Chars Long.
 6. Wrap the _Message body_ at **72** characters.
 7. Use Valid [MarkDown](https://daringfireball.net/projects/markdown/basics) format in _Message Body_.
