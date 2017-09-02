@@ -55,7 +55,7 @@ It's also [recommanded](/slashsBin/styleguide-git-commit-message/issues/19) to u
 ## Notes
 
 + All **WIP** Commits **Should** be Avoided!.
-+ Tasks with Commits in `Fixes T###` Format will be Automatically [_Closed as Resolved_](https://help.github.com/articles/closing-issues-via-commit-messages/)!.
++ Refrencing Issues by using special keywords like `Fixes` or `Resolves` will mark them as closed automatically! For more  information about automatic issue closing using ketwords see: [GitHub](https://help.github.com/articles/closing-issues-via-commit-messages/)/[GitLab](https://docs.gitlab.com/ee/user/project/issues/automatic_issue_closing.html)/[Phabricator](https://secure.phabricator.com/book/phabricator/article/diffusion_autoclose/).
 + There is a **Space** Character between Multiple Emojis!.
 + There is **NO** New-Line After the _Task ID Reference_ Line.
 + Every Raw Emoji Text(`:emoji:`) is Counted as One Char!.
