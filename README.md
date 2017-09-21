@@ -78,6 +78,7 @@ It's also [recommanded](/../../issues/19) to use _Full URL to Issues_, instead o
 | :checkered_flag: | `:checkered_flag:` | when fixing something on **Windows** |
 | :fire: | `:fire:` | when **removing code** or files, _maybe_ with `@CHANGED` Comment Tag |
 | :tractor: | `:tractor:` | when **change file structure**. Usually together with :art: |
+| :hammer: | `:hammer:` | when **refactoring** code |
 | :umbrella: | `:umbrella:` | when adding **tests** |
 | :microscope: | `:microscope:` | when adding **code coverage** |
 | :green_heart: | `:green_heart:` | when fixing the **CI** build |
