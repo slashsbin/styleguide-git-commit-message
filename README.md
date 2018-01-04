@@ -14,6 +14,7 @@ Git Commit Message StyleGuide
 - [Notes](#notes)
 - [Suggested Emojis](#suggested-emojis)
 - [Tools](#tools)
+- [Fun Emoji Usages](#fun-emoji-usages)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -117,6 +118,11 @@ It's also [recommanded](/../../issues/19) to use _Full URL to Issues_, instead o
 
 - [Commit](https://github.com/jakeasmith/commit)(CLI): This is a nifty CLI tool to aid in standardizing commit messages based on this document, thanks to @jakeasmith.
 - [gitMoji](https://github.com/louisgrasset/git-moji)(Chrome Extension): Enhance your commits with emojis!, thanks to @louisgrasset.
+
+
+## Fun Emoji Usages
+- [CodeEmoji](https://codemoji.org/): Mozilla’s Codemoji enciphers your messages with emoji for fun and profit
+- [Emoji Based Diagram](https://blog.mozilla.org/services/2016/08/23/sending-vapid-identified-webpush-notifications-via-mozillas-push-service/#send_data): Emoji Based Diagram of Data Bearing Subscription Updates(WebPush VAPID)
 
 
 ## Contributing
