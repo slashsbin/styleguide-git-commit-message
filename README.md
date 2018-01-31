@@ -127,7 +127,7 @@ It's also [recommanded](/../../issues/19) to use _Full URL to Issues_, instead o
 
 ## Contributing
 
-[Ask](https://github.com/slashsBin/styleguide-git-commit-message/issues/new) to Be [Creative](https://emoji.codes/)!
+[Ask](https://github.com/slashsBin/styleguide-git-commit-message/issues/new) to Be [Creative](https://www.emojicopy.com/)!
 
 To add a new Emoji to the list: [Create an Issue](https://github.com/slashsBin/styleguide-git-commit-message/issues/new) & Send a [PR]().
 
