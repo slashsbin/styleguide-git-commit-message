@@ -1,19 +1,25 @@
-Git Commit Message StyleGuide
-=============================
+<p align="center">
+  <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png" alt="Git" height="128">
+  <span>&amp;</span>
+  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f984.png" alt="Unicorn" height="128">
+</p>
 
-[![emoji](https://img.shields.io/badge/emoji-%F0%9F%A6%84%20%F0%9F%92%9F-lightgrey.svg)](https://en.wikipedia.org/wiki/Emoji#Unicode_blocks)
-[![GitHub contributors](https://img.shields.io/github/contributors/slashsBin/styleguide-git-commit-message.svg)](https://github.com/slashsBin/styleguide-git-commit-message/graphs/contributors)
-[![GitHub stars](https://img.shields.io/github/stars/slashsBin/styleguide-git-commit-message.svg)](https://github.com/slashsBin/styleguide-git-commit-message/stargazers)
-[![license](https://img.shields.io/github/license/slashsBin/styleguide-git-commit-message.svg)](https://github.com/slashsBin/styleguide-git-commit-message/blob/master/LICENSE)
-[![ghit.me](https://ghit.me/badge.svg?repo=slashsBin/styleguide-git-commit-message)](https://ghit.me/repo/slashsBin/styleguide-git-commit-message)
+<p align="center">
+  <a href="https://en.wikipedia.org/wiki/Emoji#Unicode_blocks"><img src="https://img.shields.io/badge/emoji-%F0%9F%A6%84%20%F0%9F%92%9F-lightgrey.svg" alt="Powered by Emojis!"></a>
+  <a href="https://github.com/slashsBin/styleguide-git-commit-message/graphs/contributors"><img src="https://img.shields.io/github/contributors/slashsBin/styleguide-git-commit-message.svg" alt="GitHub contributors"></a>
+  <a href="https://github.com/slashsBin/styleguide-git-commit-message/stargazers"><img src="https://img.shields.io/github/stars/slashsBin/styleguide-git-commit-message.svg" alt="GitHub stars"></a>
+  <a href="https://github.com/slashsBin/styleguide-git-commit-message/blob/master/LICENSE"><img src="https://img.shields.io/github/license/slashsBin/styleguide-git-commit-message.svg" alt="license"></a>
+  <a href="https://ghit.me/repo/slashsBin/styleguide-git-commit-message"><img src="https://ghit.me/badge.svg?repo=slashsBin/styleguide-git-commit-message" alt="ghit.me"></a>
+</p>
 
+# Git Commit Message StyleGuide
 
 ##### TOC
 - [About](#about)
 - [Commit Message Format](#commit-message-format)
-- [Notes](#notes)
 - [Suggested Emojis](#suggested-emojis)
 - [Tools](#tools)
+- [References](#references)
 - [Fun Emoji Usages](#fun-emoji-usages)
 - [Contributing](#contributing)
 - [License](#license)
@@ -26,41 +32,81 @@ Using emojis at the beginning of commit messages, other than being fun, provides
 
 If these rules and/or using emojis is an [overkill](/../../issues/21) for your productivity or simply losing its purposes, please tailor them to your needs or don't use them.
 
+### Summary of the reasons for these conventions:
+- Fun!
+- Simple navigation through git history (e.g. ignoring style changes).
+- Automatic generating of the changelog.
+
 
 ## Commit Message Format
 
-All Git Commit Messages **MUST** meet with this Text Format:
 ```
-:emoji1: :emoji2: Subject
-(Only One NewLine)
-Message Body
-(Only One NewLine)
-Ref <###>
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
 ```
 
-### Rules
+### Message Subject(first line)
+- Capitalize the `<subject>`.
+- Do not end the first line with a period.
+- Total characters of the first line **MUST** be _Less_ than or _Equal_ to **50** characters Long.
+- Use the **present tense** ("Add feature" not "Added feature").
+- Use the **imperative mood** ("Move cursor to..." not "Moves cursor to...").
+- Use `<type>` to identify what type of changes introduced in this commit; Allowed `<type>` keywords:
+  - An Emoji(see below for [list of Suggested Emojis](#suggested-emojis))
+  - Or a Text:
+    - feat: new feature for the user(or :sparkles: emoji)
+    - fix: bug fix for the user(or :ambulance: emoji)
+    - docs: changes to the documentation(or :books: emoji)
+    - style: formatting, missing semi colons, etc; no production code change(or :art: emoji)
+    - refactor: refactoring production code, eg. renaming a variable(or :tractor: emoji)
+    - test: adding missing tests, refactoring tests; no production code change(or :microscope: emoji)
+    - chore: updating grunt tasks etc; no production code change
+- If you need more than one keyword or emoji to use, you should probably think twice!. This usally means you need to break this commit into more smaller commits; If thats not the case then separate each emoji with a space.
+- Use `<scope>` to identify which component this `<type>` is related to; Example `<scope>` values:
+  - init
+  - runner
+  - watcher
+  - config
+  - web-server
+  - proxy
+  - etc.
+- The `<scope>` can also be empty (e.g. if the change is a global or difficult to assign to a single component), in which case the parentheses are omitted.
 
-1. Capitalize the _Subject_.
-2. Do not end the _Subject_ line with a period.
-3. Message _Subject_ **SHOULD** Begin with _at-least_ One Emoji(see below for [list of Suggested Emojis](#suggested-emojis)).
-4. Message Body **SHOULD** End with _at-least_ One Issue Tracking ID Reference([GitHub Issues](https://github.com/features#issues)/[GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/)/[Phabricator Tasks](http://phacility.com/phabricator/maniphest/)), Ex. `Issue #27`, `Ref T27` or `Ref T27, T56` or `Fixes T8`.  
-It's also [recommanded](/../../issues/19) to use _Full URL to Issues_, instead of just Issue ID Number; Doing so will ease browsing issues from terminal.
-5. Total Characters of the _Subject Line_ **MUST** be _Less_ than or _Equal_ to **50** Chars Long.
-6. Wrap the _Message body_ at **72** characters.
-7. Use Valid [MarkDown](https://daringfireball.net/projects/markdown/basics) format in _Message Body_.
-8. Use the **Present Tense** ("Add feature" not "Added feature").
-9. Use the **Imperative Mood** ("Move cursor to..." not "Moves cursor to...").
-10. Use the _Message body_ to explain **what** and **why** vs. how.
-11. All WIP(Work In Progress) Commits **MUST** have the WIP Emoji(see below).
+### Message Body
+- Includes **motivation** for the change and contrasts with previous behavior.
+- Use the body to explain **whats** and **whys** vs. *hows*.
+- Wrap each line of the body at **72** characters.
 
-## Notes
+### Message Footer
+- Refrence issues this commit is related to with the status of that Issue; Ex. `Issue #27`, `Ref T27` or `Ref T27, T56` or `Fixes T8`.
+- Supported issue tracker status keywords:
+  - Fixes
+  - Fixed
+  - Closes
+  - Closed
+  - Resolves
+  - Resolved
+  - Ref
+  - Issue
+  - Issues
+- More info on issue tracker status keywords:
+  - [GitHub Issues](https://help.github.com/articles/closing-issues-using-keywords/)
+  - [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/automatic_issue_closing.html)
+  - [Phabricator Tasks](https://secure.phabricator.com/book/phabricator/article/diffusion_autoclose/)
+- It's also [recommanded](/../../issues/19) to use _Full URL to the Issues_, instead of just issue ID Number; Doing so will ease browsing issues from terminal.
+- In the case of multiple issues separate them with commas, Ex. `Closes #27, #56`.
 
-+ All **WIP** Commits **Should** be Avoided!.
-+ Refrencing Issues by using special keywords like `Fixes` or `Resolves` will mark them as closed automatically! For more  information about automatic issue closing using ketwords see: [GitHub](https://help.github.com/articles/closing-issues-via-commit-messages/)/[GitLab](https://docs.gitlab.com/ee/user/project/issues/automatic_issue_closing.html)/[Phabricator](https://secure.phabricator.com/book/phabricator/article/diffusion_autoclose/).
-+ There is a **Space** Character between Multiple Emojis!.
-+ There is **NO** New-Line After the _Task ID Reference_ Line.
-+ Every Raw Emoji Text(`:emoji:`) is Counted as One Char!.
-+ See [ToDo Grammar StyleGuide](https://github.com/slashsBin/styleguide-todo-grammar) for more Information on `@XXX` Comment Tags.
+### Notes
+- Use valid [MarkDown](https://daringfireball.net/projects/markdown/basics) format in the `<body>`.
+- All **WIP**(Work In Progress) commits **SHOULD** have the :construction: Emoji.
+- All **WIP** commits **SHOULD** be avoided!.
+- Refrencing Issues by using special keywords like `Fixes` or `Resolves` will mark them as closed automatically! For more  information about automatic issue closing using ketwords see their documentation(linked above).
+- There is **NO** new-line after the `<footer>`.
+- Every emoji text(`:emoji:`) is counted as one character!.
+- See [ToDo Grammar StyleGuide](https://github.com/slashsBin/styleguide-todo-grammar) for more Information on `@XXX` Comment Tags.
 
 
 ## Suggested Emojis
