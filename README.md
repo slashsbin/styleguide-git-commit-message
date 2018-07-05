@@ -163,7 +163,7 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
 ## Tools
 
 - [Commit](https://github.com/jakeasmith/commit)(CLI): This is a nifty CLI tool to aid in standardizing commit messages based on this document, thanks to @jakeasmith.
-- [gitMoji](https://github.com/louisgrasset/git-moji)(Chrome Extension): Enhance your commits with emojis!, thanks to @louisgrasset.
+- [gitMoji](https://gitlab.com/louisgrasset/git-moji)(Firefox & Chrome Extension): Enhance your commits with emojis!, thanks to [@louisgrasset](https://twitter.com/louisgrasset).
 
 
 ## Fun Emoji Usages
