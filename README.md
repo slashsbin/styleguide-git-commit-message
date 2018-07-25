@@ -96,7 +96,7 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
   - [GitHub Issues](https://help.github.com/articles/closing-issues-using-keywords/)
   - [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/automatic_issue_closing.html)
   - [Phabricator Tasks](https://secure.phabricator.com/book/phabricator/article/diffusion_autoclose/)
-- It's also [recommanded](/../../issues/19) to use _Full URL to the Issues_, instead of just issue ID Number; Doing so will ease browsing issues from terminal.
+- It's also [recommended](/../../issues/19) to use _Full URL to the Issues_, instead of just issue ID Number; Doing so will ease browsing issues from terminal.
 - In the case of multiple issues separate them with commas, Ex. `Closes #27, #56`.
 
 ### Notes
