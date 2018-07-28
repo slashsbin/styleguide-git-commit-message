@@ -81,7 +81,7 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
 - Wrap each line of the body at **72** characters.
 
 ### Message Footer
-- Refrence issues this commit is related to with the status of that Issue; Ex. `Issue #27`, `Ref T27` or `Ref T27, T56` or `Fixes T8`.
+- Reference issues this commit is related to with the status of that Issue; Ex. `Issue #27`, `Ref T27` or `Ref T27, T56` or `Fixes T8`.
 - Supported issue tracker status keywords:
   - Fixes
   - Fixed
@@ -103,7 +103,7 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
 - Use valid [MarkDown](https://daringfireball.net/projects/markdown/basics) format in the `<body>`.
 - All **WIP**(Work In Progress) commits **SHOULD** have the :construction: Emoji.
 - All **WIP** commits **SHOULD** be avoided!.
-- Refrencing Issues by using special keywords like `Fixes` or `Resolves` will mark them as closed automatically! For more  information about automatic issue closing using ketwords see their documentation(linked above).
+- Referencing Issues by using special keywords like `Fixes` or `Resolves` will mark them as closed automatically! For more  information about automatic issue closing using ketwords see their documentation(linked above).
 - There is **NO** new-line after the `<footer>`.
 - Every emoji text(`:emoji:`) is counted as one character!.
 - See [ToDo Grammar StyleGuide](https://github.com/slashsBin/styleguide-todo-grammar) for more Information on `@XXX` Comment Tags.
