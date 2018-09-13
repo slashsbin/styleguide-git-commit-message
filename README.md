@@ -158,6 +158,7 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
 | :bank: | `:bank:` | **Generic Database** specific (Migrations, Scripts, Extensions, ...) |
 | :whale: | `:whale:` | **Docker** Configuration |
 | :handshake: | `:handshake:` | when **Merge files** |
+| :cherries: | `:cherries:` | when Commit Arise from one or more [**Cherry-Pick**](https://git-scm.com/docs/git-cherry-pick) Commit(s) |
 
 
 ## Tools
