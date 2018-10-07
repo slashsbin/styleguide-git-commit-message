@@ -6,10 +6,9 @@
 
 <p align="center">
   <a href="https://en.wikipedia.org/wiki/Emoji#Unicode_blocks"><img src="https://img.shields.io/badge/emoji-%F0%9F%A6%84%20%F0%9F%92%9F-lightgrey.svg" alt="Powered by Emojis!"></a>
-  <a href="https://github.com/slashsBin/styleguide-git-commit-message/graphs/contributors"><img src="https://img.shields.io/github/contributors/slashsBin/styleguide-git-commit-message.svg" alt="GitHub contributors"></a>
-  <a href="https://github.com/slashsBin/styleguide-git-commit-message/stargazers"><img src="https://img.shields.io/github/stars/slashsBin/styleguide-git-commit-message.svg" alt="GitHub stars"></a>
-  <a href="https://github.com/slashsBin/styleguide-git-commit-message/blob/master/LICENSE"><img src="https://img.shields.io/github/license/slashsBin/styleguide-git-commit-message.svg" alt="license"></a>
-  <a href="https://ghit.me/repo/slashsBin/styleguide-git-commit-message"><img src="https://ghit.me/badge.svg?repo=slashsBin/styleguide-git-commit-message" alt="ghit.me"></a>
+  <a href="https://github.com/slashsbin/styleguide-git-commit-message/graphs/contributors"><img src="https://img.shields.io/github/contributors/slashsbin/styleguide-git-commit-message.svg" alt="GitHub contributors"></a>
+  <a href="https://github.com/slashsbin/styleguide-git-commit-message/stargazers"><img src="https://img.shields.io/github/stars/slashsbin/styleguide-git-commit-message.svg" alt="GitHub stars"></a>
+  <a href="https://github.com/slashsbin/styleguide-git-commit-message/blob/master/LICENSE"><img src="https://img.shields.io/github/license/slashsbin/styleguide-git-commit-message.svg" alt="license"></a>
 </p>
 
 # Git Commit Message StyleGuide
@@ -106,7 +105,7 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
 - Referencing Issues by using special keywords like `Fixes` or `Resolves` will mark them as closed automatically! For more  information about automatic issue closing using ketwords see their documentation(linked above).
 - There is **NO** new-line after the `<footer>`.
 - Every emoji text(`:emoji:`) is counted as one character!.
-- See [ToDo Grammar StyleGuide](https://github.com/slashsBin/styleguide-todo-grammar) for more Information on `@XXX` Comment Tags.
+- See [ToDo Grammar StyleGuide](https://github.com/slashsbin/styleguide-todo-grammar) for more Information on `@XXX` Comment Tags.
 
 
 ## Suggested Emojis
@@ -118,7 +117,7 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
 | :pencil: | `:pencil:` | when **performing minor changes/fixing** the code or language |
 | :racehorse: | `:racehorse:` | when improving **performance** |
 | :books: | `:books:` | when writing **docs** |
-| :bug: | `:bug:` | when reporting a **bug**, with [`@FIXME`](https://github.com/slashsBin/styleguide-todo-grammar#bug-report)Comment Tag |
+| :bug: | `:bug:` | when reporting a **bug**, with [`@FIXME`](https://github.com/slashsbin/styleguide-todo-grammar#bug-report)Comment Tag |
 | :ambulance: | `:ambulance:` | when fixing a **bug** |
 | :penguin: | `:penguin:` | when fixing something on **Linux** |
 | :apple: | `:apple:` | when fixing something on **Mac OS** |
@@ -174,9 +173,9 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
 
 ## Contributing
 
-[Ask](https://github.com/slashsBin/styleguide-git-commit-message/issues/new) to Be [Creative](https://www.emojicopy.com/)!
+[Ask](https://github.com/slashsbin/styleguide-git-commit-message/issues/new) to Be [Creative](https://www.emojicopy.com/)!
 
-To add a new Emoji to the list: [Create an Issue](https://github.com/slashsBin/styleguide-git-commit-message/issues/new) & Send a [PR]().
+To add a new Emoji to the list: [Create an Issue](https://github.com/slashsbin/styleguide-git-commit-message/issues/new) & Send a [PR]().
 
 
 ## License
