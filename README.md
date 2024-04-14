@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png" alt="Git" height="128">
   <span>&amp;</span>
-  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f984.png" alt="Unicorn" height="128">
+  <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f984.png" alt="Unicorn" height="128">
 </p>
 
 <p align="center">
