@@ -18,7 +18,7 @@
 - [Commit Message Format](#commit-message-format)
 - [Suggested Emojis](#suggested-emojis)
 - [Tools](#tools)
-- [References](#references)
+- [Related Ideas](#related-ideas)
 - [Fun Emoji Usages](#fun-emoji-usages)
 - [Contributing](#contributing)
 - [License](#license)
@@ -166,9 +166,17 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
 - [gitMoji](https://gitlab.com/louisgrasset/git-moji)(Firefox & Chrome Extension): Enhance your commits with emojis!, thanks to [@louisgrasset](https://twitter.com/louisgrasset).
 
 
+## Related Ideas
+
+- [gitmoji](https://gitmoji.dev/): An emoji guide for your commit messages.
+- [Conventional Commits](https://www.conventionalcommits.org/): A specification for adding human and machine readable meaning to commit messages.
+
+
 ## Fun Emoji Usages
-- [CodeEmoji](https://codemoji.org/): Mozilla’s Codemoji enciphers your messages with emoji for fun and profit
-- [Emoji Based Diagram](https://blog.mozilla.org/services/2016/08/23/sending-vapid-identified-webpush-notifications-via-mozillas-push-service/#send_data): Emoji Based Diagram of Data Bearing Subscription Updates(WebPush VAPID)
+- [CodeEmoji](https://codemoji.org/): Mozilla’s Codemoji enciphers your messages with emoji for fun and profit.
+- [Emoji Based Diagram](https://blog.mozilla.org/services/2016/08/23/sending-vapid-identified-webpush-notifications-via-mozillas-push-service/#send_data): Emoji Based Diagram of Data Bearing Subscription Updates(WebPush VAPID).
+- [HTTP status codes as emoji](https://twitter.com/nlognhq/status/1314443449244946436).
+- [OSI Model with emojis](https://twitter.com/jbizzle703/status/1320745108594135041).
 
 
 ## Contributing
