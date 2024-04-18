@@ -170,6 +170,7 @@ If these rules and/or using emojis is an [overkill](/../../issues/21) for your p
 
 - [gitmoji](https://gitmoji.dev/): An emoji guide for your commit messages.
 - [Conventional Commits](https://www.conventionalcommits.org/): A specification for adding human and machine readable meaning to commit messages.
+- [Keep a Changelog](https://keepachangelog.com/): Don’t let your friends dump git logs into changelogs.
 
 
 ## Fun Emoji Usages
